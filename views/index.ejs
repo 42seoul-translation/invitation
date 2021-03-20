@@ -77,7 +77,13 @@
 			</div>
 		</div>
 		<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
-		<script src="https://unpkg.com/vue@next"></script>
+
+		<% if (process.env.ENV === 'prod') { %>
+		<script src="https://unpkg.com/vue@3.0.7/dist/vue.global.prod.js"></script>
+		<% } else { %>
+		<script src="https://unpkg.com/vue@3.0.7/dist/vue.global.js"></script>
+		<% } %>
+
 		<script>
 			particlesJS.load("particles-js", "assets/particles.json");
 		</script>
