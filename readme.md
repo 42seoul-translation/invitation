@@ -2,4 +2,4 @@
 
 초대장 자동 발급 사이트
 
-[https://welcome-to-translation.herokuapp.com](https://welcome-to-translation.herokuapp.com)
+[welcome-to-translation-woolimi.koyeb.app](https://welcome-to-translation-woolimi.koyeb.app)
